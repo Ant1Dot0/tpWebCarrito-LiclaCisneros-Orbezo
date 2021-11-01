@@ -27,12 +27,19 @@ namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
                 articuloAgregado = new Articulo();
             }
 
-
+            agregarAlCarrito();
         }
 
         private void agregarAlCarrito()
         {
-
+            int cont;
+            if( Request.QueryString["contador"] != null)
+            {
+                cont = int.Parse(Request.QueryString["contador"].ToString());
+                carrito.Add(listaA[cont]);
+                Session.Add("carritoCompra", carrito);
+                Response.Redirect("Default.aspx");
+            }
         }
     }
 }

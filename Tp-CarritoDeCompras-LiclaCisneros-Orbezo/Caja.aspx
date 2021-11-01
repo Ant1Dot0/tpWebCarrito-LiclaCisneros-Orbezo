@@ -28,7 +28,7 @@
                                         <td><%=arti.nombre%></td>
                                         <td><%=arti.precio%></td>
                                         <td>
-                                            <asp:Button ID="Button1" runat="server" Text="quitar" CssClass="btn btn-secondary" PostBackUrl="~/default2.aspx" />
+                                            <asp:Button ID="Button1" runat="server" Text="quitar" CssClass="btn btn-secondary"/>
                                         </td>
                                     </tr>
                                     <%} %>

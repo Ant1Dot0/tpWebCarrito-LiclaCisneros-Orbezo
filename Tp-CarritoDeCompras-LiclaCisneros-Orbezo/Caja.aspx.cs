@@ -15,13 +15,10 @@ namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
         public List<Articulo> carrito { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-            Articulo articulo = new Articulo();
-            articulo.id = 1;
             ArticuloNegocio nuevo = new ArticuloNegocio();
-            
-         
+
+            listaArticulos = new List<Articulo>();
             carrito = (List<Articulo>)Session["carritoCompra"];
-            carrito.Add(nuevo.buscarArticulo(articulo, 0));
             Session.Add("carritoCompra", carrito);
 
             listaArticulos = carrito;
