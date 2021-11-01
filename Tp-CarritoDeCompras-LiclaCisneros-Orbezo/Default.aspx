@@ -3,47 +3,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section id="ArticulosPagar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Listado de Articulos</h4>
-                            <table class="table table-striped">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th>Codigo</th>
-                                        <th>Nombre</th>
-                                        <th>Precio</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <%foreach (var arti in listaArticulos)
-                                        {  %>
-                                    <tr>
-                                        <td><%=arti.codigo%></td>
-                                        <td><%=arti.nombre%></td>
-                                        <td><%=arti.precio%></td>
-                                        <td>
-                                            <a href="#"
-                                               class="btn btn-secondary">
-                                                <i class="fa-solid fa-minus"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <%} %>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+    <div class="container">
+    <div class="row" style="display: flex; flex-direction: row; justify-content:space-between;">
+    <%foreach (var item in listaA)
+        {%>
+            <div class="card" style="width: 18rem;height:30rem;margin:20px;border:1px solid black;">
+                <img src="<%=item.Url%>" class="card-img-top" alt="No Disponible" width="100%" height="55%" style="background-color:lightgray;">
+                <div class="card-body" style="border-top:1px solid black;display:flex;flex-direction:column;align-items:center;">
+                    <h5 class="card-title"><%=item.nombre %></h5>
+                    <p class="card-text"><%=item.descripcion%></p>
+                    <a href="#" class="btn btn-success">Añadir 1</a>
                 </div>
-
             </div>
+        <%} %>
+    </div>
         </div>
-    </section>
-
-
 </asp:Content>

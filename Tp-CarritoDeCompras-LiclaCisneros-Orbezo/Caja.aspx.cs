@@ -9,13 +9,15 @@ using Negocio;
 
 namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Caja : System.Web.UI.Page
     {
-        public List<Articulo> listaA { get; set; }
+        public List<Articulo> listaArticulos { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-            ArticuloNegocio nuevo = new ArticuloNegocio();
-            listaA = nuevo.listar();
+            List<Articulo> articulos = new List<Articulo>();
+            ArticuloNegocio artNegocio = new ArticuloNegocio();
+            articulos = artNegocio.listar();
+            listaArticulos = articulos;
         }
     }
 }

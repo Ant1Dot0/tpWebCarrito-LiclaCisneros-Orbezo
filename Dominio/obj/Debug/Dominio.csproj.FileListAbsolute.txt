@@ -4,3 +4,9 @@ C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Domin
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Dominio\bin\Debug\Dominio.pdb
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.dll
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.pdb
