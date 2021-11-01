@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Caja.aspx.cs" Inherits="Tp_CarritoDeCompras_LiclaCisneros_Orbezo.Caja" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<section id="ArticulosPagar">
+    <section id="ArticulosPagar">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -27,10 +28,7 @@
                                         <td><%=arti.nombre%></td>
                                         <td><%=arti.precio%></td>
                                         <td>
-                                            <a href="#"
-                                               class="btn btn-secondary">
-                                                <i class="fa-solid fa-minus"></i>
-                                            </a>
+                                            <asp:Button ID="Button1" runat="server" Text="quitar" CssClass="btn btn-secondary" PostBackUrl="~/default2.aspx" />
                                         </td>
                                     </tr>
                                     <%} %>
@@ -43,4 +41,5 @@
             </div>
         </div>
     </section>
+    
 </asp:Content>

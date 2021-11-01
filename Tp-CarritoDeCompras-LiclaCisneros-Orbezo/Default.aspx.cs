@@ -13,6 +13,7 @@ namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
     {
         public List<Articulo> listaA { get; set; }
         public List<Articulo> carrito { get; set; }
+        public Articulo articuloAgregado { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio nuevo = new ArticuloNegocio();
@@ -23,8 +24,14 @@ namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
             if (carrito == null)
             {
                 carrito = new List<Articulo>();
+                articuloAgregado = new Articulo();
             }
 
+
+        }
+
+        private void agregarAlCarrito()
+        {
 
         }
     }
