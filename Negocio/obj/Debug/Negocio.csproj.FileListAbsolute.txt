@@ -7,3 +7,12 @@ C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Negoc
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.dll
 C:\Users\JoseEdu\Desktop\proyecto\Tp-CarritoDeCompras-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\bin\Debug\Negocio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\bin\Debug\Negocio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\bin\Debug\Dominio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\bin\Debug\Dominio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\WEB\tpWebCarrito-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.pdb

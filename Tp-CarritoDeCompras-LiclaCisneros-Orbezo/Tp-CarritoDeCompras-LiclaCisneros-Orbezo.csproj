@@ -67,12 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Caja.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="estilos\estilos.css" />
     <Content Include="imagenes\carrito-de-compras.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caja.aspx.cs">
+      <DependentUpon>Caja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caja.aspx.designer.cs">
+      <DependentUpon>Caja.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
