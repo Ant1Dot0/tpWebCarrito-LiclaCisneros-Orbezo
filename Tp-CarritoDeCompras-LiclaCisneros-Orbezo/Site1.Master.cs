@@ -20,6 +20,7 @@ namespace Tp_CarritoDeCompras_LiclaCisneros_Orbezo
             {
                 carrito = new List<Articulo>();
                 Session.Add("carritoCompra", carrito);
+               
             }
         }
     }
