@@ -28,7 +28,7 @@
                                         <td><%=arti.nombre%></td>
                                         <td><%=arti.precio%></td>
                                         <td>
-                                            <a href="Caja.aspx?contador=<%=count%>" class="btn btn-secondary"><i class="fa-solid fa-minus"></i></a>
+                                            <a href="Caja.aspx?contador=<%=count%>" class="btn btn-secondary" onclick='agregarAlertaSub()'><i class="fa-solid fa-minus"></i></a>
                                         </td>
                                     </tr>
                                     <% count++;
@@ -49,7 +49,7 @@
                 <div class="col-md-6">
                     
                     <div class="card text-center  bg-success text-white mb-3 mt-2">
-                            <asp:Button ID="btnPagar" runat="server" Text="Pagar" Font-Size="45" CssClass="btn btn-success card-body" Height="152" OnClick="btnPagar_Click" />
+                            <asp:Button ID="btnPagar" runat="server" Text="Pagar" Font-Size="45" CssClass="btn btn-success card-body" Height="152" OnClick="btnPagar_Click"/>
 
                     </div>
                 </div>

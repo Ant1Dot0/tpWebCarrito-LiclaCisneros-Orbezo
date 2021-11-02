@@ -13,10 +13,12 @@
                     <h5 class="card-title"><%=item.nombre %></h5>
                     <p class="card-text"><%=item.descripcion%></p>
                     
-                    <a href="Default.aspx?contador=<%=count%>" class="btn btn-primary">Agregar 1</a>
+                        <a href="Default.aspx?contador=<%=count%>"  onclick='agregarAlertaAdd()' class="btn btn-primary">Agregar 1</a>
+
                 </div>
             </div>
-            <%count++;} %>
+            <%count++;
+            } %>
         </div>
     </div>
 </asp:Content>
