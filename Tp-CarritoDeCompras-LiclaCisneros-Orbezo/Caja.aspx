@@ -28,7 +28,7 @@
                                         <td><%=arti.nombre%></td>
                                         <td><%=arti.precio%></td>
                                         <td>
-                                            <a href="Caja.aspx?contador=<%=count%>" class="btn btn-secondary" onclick='agregarAlertaSub()'><i class="fa-solid fa-minus"></i></a>
+                                            <a href="Caja.aspx?contador=<%=count%>" title="Quitar item de la lista" class="btn btn-secondary" onclick='agregarAlertaSub()'><i class="fa-solid fa-minus"></i></a>
                                         </td>
                                     </tr>
                                     <% count++;

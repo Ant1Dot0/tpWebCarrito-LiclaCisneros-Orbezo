@@ -16,9 +16,9 @@
 <body>
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gold;">
-            <a class="navbar-brand" href="Default.aspx">Mi aplicación</a>
-            <a class="navbar-brand" href="Caja.aspx">
-                <i class="fa-solid fa-cart-shopping"></i><%=carrito.Count %>
+            <a class="navbar-brand" href="Default.aspx" title="inicio">ShopGestor</a>
+            <a class="navbar-brand" href="Caja.aspx" title="Ir a Caja">
+                <i class="fa-solid fa-cart-shopping"></i> <%=carrito.Count %>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
