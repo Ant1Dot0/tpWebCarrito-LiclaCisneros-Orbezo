@@ -49,7 +49,7 @@
                 <div class="col-md-6">
                     
                     <div class="card text-center  bg-success text-white mb-3 mt-2">
-                            <asp:Button ID="btnPagar" runat="server" Text="Pagar" Font-Size="45" CssClass="btn btn-success card-body" Height="152" OnClick="btnPagar_Click"/>
+                            <asp:Button ID="btnPagar" runat="server" Text="Pagar" Font-Size="45" CssClass="btn btn-success card-body" Height="152" OnClick="btnPagar_Click" OnClientClick="agregarAlertaPay()"/>
 
                     </div>
                 </div>
